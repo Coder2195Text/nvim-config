@@ -13,7 +13,7 @@ return {
           },
           ["<S-Tab>"] = { "<Esc><cmd>bnext<cr>", desc = "Next Buffer" },
           ["<C-a>"] = { "<Esc>ggVGi", desc = "Select All" },
-          ["<C-s>"] = { "<Esc><cmd>w!<cr>", desc = "Force write" },
+          ["<C-s>"] = { "<Esc><cmd>w!<cr>", desc = "Force Write" },
         },
         n = {
           ["<F8>"] = {
@@ -23,7 +23,7 @@ return {
           -- open config file
           ["<leader>v"] = { name = " CoderVim" },
           ["<leader>vc"] = {
-            "<cmd>:e /home/coder2195/.config/nvim/init.lua<cr>",
+            "<cmd>:e /home/coder2195/.config/nvim/README.md<cr>",
             desc = "Open CoderVim Config",
           },
           ["<leader>s"] = {
@@ -34,12 +34,12 @@ return {
           ["<C-a>"] = { "ggVG", desc = "Select All" },
           -- second key is the lefthand side of the map
           -- mappings seen under group name "Buffer"
-          ["<leader>bb"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+          ["<leader>bb"] = { "<cmd>tabnew<cr>", desc = "New Tab" },
           ["<leader>bc"] = {
             "<cmd>BufferLinePickClose<cr>",
             desc = "Pick to close",
           },
-          ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
+          ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to Jump" },
           ["<leader>bt"] = {
             "<cmd>BufferLineSortByTabs<cr>",
             desc = "Sort by tabs",
@@ -56,7 +56,7 @@ return {
             "<cmd>Telescope projects<cr>",
             desc = "Open project",
           },
-          ["<leader>vu"] = { "<cmd>:Lazy update<cr>", desc = "Update plugins" },
+          ["<leader>vu"] = { "<cmd>:Lazy update<cr>", desc = "Update Plugins" },
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },

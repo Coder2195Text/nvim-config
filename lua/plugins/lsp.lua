@@ -1,5 +1,14 @@
 -- Set files that should have been detected but need to be manually set
-vim.cmd [[ au BufRead,BufNewFile *.slint set filetype=slint ]]
+-- frag and vert as glsl
+
+vim.filetype.add {
+  pattern = {
+    -- match all files
+    [".*%.slint"] = { "slint", { priority = 10 } },
+    [".*%.frag"] = { "glsl", { priority = 10 } },
+    [".*%.vert"] = { "glsl", { priority = 10 } },
+  },
+}
 -- @TypeDef LazySpec
 return {
   {
