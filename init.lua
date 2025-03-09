@@ -15,4 +15,6 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.env.PATH = vim.env.PATH .. ":/home/coder2195/.local/share/fnm/node-versions/v23.7.0/installation/"
+
 require "lazy_setup"
