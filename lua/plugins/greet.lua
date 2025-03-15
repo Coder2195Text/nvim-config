@@ -14,7 +14,6 @@ return {
         "  ░  ▒     ░ ▒ ▒░  ░ ▒  ▒  ░ ░  ░  ░▒ ░ ▒░   ░ ░░   ▒ ░░  ░      ░",
         "░        ░ ░ ░ ▒   ░ ░  ░    ░     ░░   ░      ░░   ▒ ░░      ░   ",
         "░ ░          ░ ░     ░       ░  ░   ░           ░   ░         ░   ",
-        "░                  ░                           ░                  ",
       }
       local button = opts.button
       -- add a button to update plugins
@@ -25,9 +24,7 @@ return {
         button("LDR f o", "  Recents  "),
         button("LDR T p", "  Projects  "),
         button("LDR v c", "  Edit Config  "),
-        button("LDR S l", "  Last Session  "),
         button("LDR v u", "  Update  "),
-
         button("LDR q", "  Quit Neovim"),
       }
 

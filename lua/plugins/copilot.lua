@@ -23,7 +23,7 @@ return {
       -- modify the mapping part of the table
 
       local config = cmp.get_config()
-      table.insert(config.sources, 1, { name = "copilot", group_index = 2 })
+      table.insert(config.sources, 1, { name = "copilot", group_index = 0 })
       cmp.setup(config)
     end,
   },
